@@ -1,6 +1,6 @@
 import './css/styles.css';
 import { debounce } from 'lodash';
-import {fetchCountries} from './fetchCountries';
+import {fetchCountries} from './js/fetchCountries';
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
 
 const DEBOUNCE_DELAY = 300;
